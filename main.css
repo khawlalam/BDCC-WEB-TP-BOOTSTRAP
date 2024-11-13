@@ -1,0 +1,212 @@
+html {
+  scroll-behavior: smooth;
+}
+.logo-cof {
+  width: 480px;
+  border-radius: 50%;
+}
+.body{
+  margin: 20px;
+  background-color: #666;
+}
+.navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 10%;
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #745b18;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  color: #eef2f6; 
+  font-family: "Times New Roman", Times, serif;
+  width: 100px;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: hsl(53, 77%, 8%); 
+}
+.navbar-search{
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+.navbar-nav .form-control {
+  max-width: 250px; 
+}
+.navbar-toggler-icon{
+  background-color: #7c6f6f;
+}
+.navbar-collapse{
+  margin: auto;
+}
+.carousel {
+  margin-top: 0px; 
+}
+
+.c-item{
+  height: 500px;
+}
+
+.full-img{
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.card-img-top{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.col{
+  margin: 25px;
+  
+}
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 50px;
+}
+
+.card-img-top {
+  border-radius: 20px 20px 0 0; 
+}
+
+.card-body {
+  padding: 20px;
+  position: relative;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4673a0;
+}
+.card{
+  width: 20rem;
+ }
+
+.card-text{
+  text-indent: 50px;
+}
+@media (max-width: 767px) {
+  .carousel-inner img {
+      height: 300px;  
+  }
+}
+
+h1{
+  text-align: left;
+  color: rgb(111, 70, 3);
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-decoration-style: solid;
+}
+
+.container-contact .row  h2{
+  color: rgb(73, 49, 5);
+  text-decoration-style: solid;
+}
+.container-team {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container-card .row{
+  position: relative;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.circle-container {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.circle-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; 
+  border: 3px solid #fff;
+  margin-bottom: 15px; 
+}
+
+.team-content {
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.post {
+  font-size: 14px;
+  color: gray;
+}
+
+.container-contact {
+  
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #c1b4b4;
+}
+
+
+.contact .col {
+  padding: 15px;
+}
+
+.contact h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #666;
+}
+
+
+.carousel-inner .carousel-item img {
+  filter: brightness(70%);
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.carousel-caption p {
+  color: #dcdcdc;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+}

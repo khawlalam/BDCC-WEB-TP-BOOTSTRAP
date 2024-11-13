@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+
+    </head>
+    <title>BDCC</title>
+    <body>
+
+       <!--- Begin Navbar--->
+       <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid">
+            <img src="BDCC.png" alt="Avatar Logo" class="rounded-pill logo-cof" style="width: 100px;">   
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>   
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav"> 
+                    <a class="nav-link" aria-current="page" href="#carouselExampleControls">Accueil</a>
+                    <a class="nav-link" href="#services-section">Services</a>
+                    <a class="nav-link" href="#contact-section">Contact</a>
+                </div>
+                <div class="d-flex ms-auto">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <!--- End Navbar--->
+
+<!-- begin Carousel -->
+<div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+            <div class="carousel-overlay">
+                <img class="d-block w-100 full-img" src="pic1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Welcome to Our website</h5>
+               
+            </div>
+        </div>
+        <div class="carousel-item c-item">
+            <div class="carousel-overlay">
+                <img class="d-block w-100 full-img" src="pic2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Our services</h5>
+              
+            </div>
+        </div>
+        <div class="carousel-item c-item">
+            <div class="carousel-overlay">
+                <img class="d-block w-100 full-img" src="pic3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Take a Moment to check our site</h5>
+            
+            </div>
+        </div>
+        <div class="carousel-item c-item">
+            <div class="carousel-overlay">
+                <img class="d-block w-100 full-img" src="pic4.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Contact us </h5>
+
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+        
+
+      <!-- end Carousell -->
+
+    <!-- Begin Cards  -->
+    <div class="container py-5"  id="services-section">
+        <div class="row px-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/201" class="card-img-top" alt="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Our services</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cumque cupiditate unde voluptas, deleniti quaerat quod at quisquam doloribus alias repudiandae ad. Minus amet dolores odit, officiis consectetur cupiditate quas!</p>
+                        <a href="#" class="btn btn-primary">Discover more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/208" class="card-img-top" alt="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Take time to check</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, fuga dignissimos eligendi delectus saepe tempore tempora accusantium quaerat nihil quas eos laboriosam explicabo omnis ex eaque sed dolorum deserunt quidem.</p>
+                        <a href="#" class="btn btn-primary">Discover more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/207" class="card-img-top" alt="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Our specialits</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus vero explicabo? Quis corrupti consequatur reiciendis. Rem quidem, explicabo illo laudantium ullam, dolorum ex repudiandae quis, distinctio hic sit placeat.</p>
+                        <a href="#" class="btn btn-primary">Discover more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+ <!--- Begin Team section--->
+
+    <h1>Our Team</12>
+
+    <div class="container-team" id="Team-section" >
+        <div class="row">
+            <div class="col">
+                <div class="circle-container">
+                    <img src="https://i.pravatar.cc/300" alt="Circular Image" class="circle-image">
+                    <div class="team-content">
+                        <h3 class="title">CEO</h3>
+                        <span class="post">Morocco</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="circle-container">
+                    <img src="https://i.pravatar.cc/200" alt="Circular Image" class="circle-image">
+                    <div class="team-content">
+                        <h3 class="title">Barista</h3>
+                        <span class="post">Norway</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="circle-container">
+                    <img src="https://i.pravatar.cc/150" alt="Circular Image" class="circle-image">
+                    <div class="team-content">
+                        <h3 class="title">Manager</h3>
+                        <span class="post">Morocco</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!--- End Team section--->
+
+
+  <!--- Begin contact us--->
+  <div class="container-contact" id="contact-section">
+    <div class="row contact">
+        <div class="col-sm-4 order-sm-0 order-1 text-center">
+            <h2>Contact Us</h2>
+            <p><i class="bi bi-telephone"></i> 0523322220</p>    
+            <p><i class="bi bi-telephone-fill"></i> 0523323530</p>   
+            <p><i class="bi bi-envelope"></i> enset@gmail.com</p>
+            <p><i class="bi bi-geo-alt"></i>Bd Hassan II, Mohammédia 28830</p>
+        </div>
+        <div class="col-sm-8 order-sm-1 order-0">
+            <h2>Google Maps</h2>
+            <div class="embed-responsive embed-responsive-16by9 rounded overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13276.660376582622!2d-7.3604533!3d33.7046767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7b6d0db170185%3A0x79759da1a916fc50!2sENSET%20Mohammedia!5e0!3m2!1sen!2sma!4v1731524755667!5m2!1sen!2sma" 
+                width="1000" height="350" 
+                style="border:0;"
+                 allowfullscreen="" 
+                 loading="lazy" 
+                 referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--- End contact us--->
+
+      
+    </body>
+</html>
